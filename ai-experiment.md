@@ -37,3 +37,11 @@ def calculate_grade(scores):
 scores = [85, 92, 78, 88, 95]
 print(calculate_grade(scores))
 ```
+## ตารางระดับความน่าเชื่อถือ (Trust Level Table)
+
+| หัวข้อการประเมิน | ระดับความน่าเชื่อถือ (Trust Level) | หมายเหตุ / คำอธิบาย |
+| :--- | :---: | :--- |
+| **ความถูกต้องของโค้ด (Accuracy)** | High | โค้ดทำงานได้ถูกต้องตาม Test Case ตัวอย่าง |
+| **ความปลอดภัย (Security)** | Medium | ไม่มีช่องโหว่ร้ายแรง แต่ต้องระวังเรื่อง Input Validation |
+| **ความเสถียร (Stability)** | Low | มีจุดเสี่ยง ZeroDivisionError หากส่งลิสต์ว่างเข้ามา |
+| **ประสิทธิภาพ (Performance)** | High | ใช้ Time Complexity เป็น $O(n)$ ซึ่งทำงานได้รวดเร็ว |
